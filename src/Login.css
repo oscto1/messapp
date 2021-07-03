@@ -1,0 +1,41 @@
+.login_container{
+  background: rgba(49,53,82);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 2.0px );
+  -webkit-backdrop-filter: blur( 2.0px );
+  border-radius: 30px;
+  display: grid;
+  place-items: center;
+  border: solid 2px rgba(255,193,7,0.7);
+}
+
+.Login_text{
+  color: rgba(255,255,255,0.8);
+  margin: 40px;
+  margin-bottom: 20px;
+}
+
+.login_container > button{
+  text-transform: inherit !important;
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid 2px white;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.login_container > button:hover{
+  background-color: rgba(255,255,255,0.6);
+}
+
+.l{
+  width: 20px;
+  height: 20px;
+  background-image : url("buscar.svg");
+  margin-right: 30px;
+}
