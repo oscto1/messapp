@@ -60,18 +60,18 @@ if(roomId){
           <IconButton onClick={back}>
             <ArrowBackIosRoundedIcon />
           </IconButton>
-          <Avatar src={`https://avatars.dicebear.com/api/micah/${roomId}.svg`}/>
+          <Avatar src={`https://api.dicebear.com/9.x/shapes/svg?seed=${roomId}`}/>
           <div className="chat_header_info">
             <h3>{roomName}</h3>
             <p>Last seen{" "}{new Date(messages[messages.length - 1]?.timestamp?.toDate()).toUTCString()}</p>
           </div>
           <div className="chat_header_rigth">
-            <IconButton>
+            {/* <IconButton>
               <SearchRoundedIcon />
             </IconButton>
             <IconButton>
               <MoreVertRoundedIcon />
-            </IconButton>
+            </IconButton> */}
           </div>
         </div>
         <div className="chat_body">
